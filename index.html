@@ -34,24 +34,22 @@
           </ul>
         </nav>
         <ul class="auth-nav list">
-          <div class="auth-item">
-            <li class="link-auth">
-              <a class="link" href="mailto:info@devstudio.com">
-                <svg class="email-icon">
-                  <use href="/images/icons/sprite.svg#icon-mail"></use>
-                </svg>
-                info@devstudio.com</a
-              >
-            </li>
-            <li class="link-auth">
-              <a class="link" href="tel:+380961111111">
-                <svg class="phone-icon">
-                  <use href="/images/icons/sprite.svg#icon-phone"></use>
-                </svg>
-                +38 096 111 11 11</a
-              >
-            </li>
-          </div>
+          <li class="link-auth">
+            <a class="link" href="mailto:info@devstudio.com">
+              <svg class="auth-nav-icon" width="16" height="12">
+                <use href="/images/icons/sprite.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+          <li class="link-auth">
+            <a class="link" href="tel:+380961111111">
+              <svg class="auth-nav-icon" width="10" height="16">
+                <use href="/images/icons/sprite.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
         </ul>
       </div>
     </header>
@@ -70,30 +68,51 @@
           <h2 class="feutures-title">Наши особенности</h2>
           <ul class="list feutures-list">
             <li class="feutures-item">
-              <svg class="icon-detailing">
-                <use href="/images/icons/sprite.svg#icon-antenna"></use>
-              </svg>
+              <div class="feutures-box">
+                <svg class="icon-item">
+                  <use href="/images/icons/sprite.svg#icon-antenna"></use>
+                </svg>
+              </div>
               <h3 class="section-title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
               <p class="section-text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li class="feutures-item icon-punctuality">
+            <li class="feutures-item">
+              <div class="feutures-box">
+                <svg class="icon-item">
+                  <use href="/images/icons/sprite.svg#icon-clock"></use>
+                </svg>
+              </div>
               <h3 class="section-title">ПУНКТУАЛЬНОСТЬ</h3>
               <p class="section-text">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="feutures-item icon-planning">
+            <li class="feutures-item">
+              <div class="feutures-box">
+                <svg class="icon-item">
+                  <use href="/images/icons/sprite.svg#icon-diagram"></use>
+                </svg>
+              </div>
               <h3 class="section-title">ПЛАНИРОВАНИЕ</h3>
               <p class="section-text">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li class="feutures-item icon-technologies">
+            <li class="feutures-item">
+              <div class="feutures-box">
+                <svg class="icon-item">
+                  <use
+                    href="/images/icons/sprite.svg#icon-astronaut"
+                    width="70"
+                    height="70"
+                  ></use>
+                </svg>
+              </div>
               <h3 class="section-title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
               <p class="section-text">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -132,6 +151,7 @@
           </ul>
         </div>
       </section>
+      <!--Team section-->
       <section class="section team">
         <div class="container">
           <!--Команда-->
@@ -416,26 +436,161 @@
           </ul>
         </div>
       </section>
+      <!--Clients section hw4-->
+      <section class="section clients">
+        <div class="container">
+          <h2 class="section-title">Постоянные клиенты</h2>
+          <ul class="clients-list list">
+            <li class="clients-item">
+              <div class="clients-box">
+                <a href="" class="client-link link">
+                  <svg class="clients-icon">
+                    <use
+                      class="client-icon-svg"
+                      href="./images/icons/sprite.svg#icon-Logo1"
+                    ></use>
+                  </svg>
+                </a>
+              </div>
+            </li>
+            <li class="clients-item">
+              <div class="clients-box">
+                <a href="" class="client-link link">
+                  <svg class="clients-icon">
+                    <use
+                      class="client-icon-svg"
+                      href="./images/icons/sprite.svg#icon-Logo2"
+                    ></use>
+                  </svg>
+                </a>
+              </div>
+            </li>
+            <li class="clients-item">
+              <div class="clients-box">
+                <a href="" class="client-link link">
+                  <svg class="clients-icon">
+                    <use
+                      class="client-icon-svg"
+                      href="./images/icons/sprite.svg#icon-Logo3"
+                    ></use>
+                  </svg>
+                </a>
+              </div>
+            </li>
+            <li class="clients-item">
+              <div class="clients-box">
+                <a href="" class="client-link link">
+                  <svg class="clients-icon">
+                    <use
+                      class="client-icon-svg"
+                      href="./images/icons/sprite.svg#icon-Logo4"
+                    ></use>
+                  </svg>
+                </a>
+              </div>
+            </li>
+            <li class="clients-item">
+              <div class="clients-box">
+                <a href="" class="client-link link">
+                  <svg class="clients-icon">
+                    <use
+                      class="client-icon-svg"
+                      href="./images/icons/sprite.svg#icon-Logo5"
+                    ></use>
+                  </svg>
+                </a>
+              </div>
+            </li>
+            <li class="clients-item">
+              <div class="clients-box">
+                <a href="" class="client-link link">
+                  <svg class="clients-icon">
+                    <use
+                      class="client-icon-svg"
+                      href="./images/icons/sprite.svg#icon-Logo6"
+                    ></use>
+                  </svg>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
     <!--Футер-->
     <footer class="section footer">
-      <div class="container footer-contacts">
-        <a href="./index.html" class="logo"
-          ><span class="logo-color">Web</span>Studio
-        </a>
-        <address class="address">
-          г. Киев, пр-т Леси Украинки, 26 <br />
-          <ul class="auth-nav list">
-            <li>
-              <a class="link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
+      <div class="container flex-container">
+        <div class="container footer-contacts">
+          <a href="./index.html" class="logo"
+            ><span class="logo-color">Web</span>Studio
+          </a>
+          <address class="address">
+            г. Киев, пр-т Леси Украинки, 26 <br />
+            <ul class="auth-nav list">
+              <li>
+                <a class="link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="container social-links">
+          <h3 class="section-title">ПРИСОЕДИНЯЙТЕСЬ</h3>
+          <ul class="social-links-list list">
+            <li class="social-links-item">
+              <a
+                href="https://instagram.com"
+                class="social-icons-link"
+                target="_blank"
+                rel="noopener noreferrer"
               >
+                <svg class="social-icons-svg">
+                  <use href="./images/icons/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li>
-              <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <li class="social-links-item">
+              <a
+                href="https://twitter.com"
+                class="social-icons-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="social-icons-svg">
+                  <use href="./images/icons/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-links-item">
+              <a
+                href="https://facebook.com"
+                class="social-icons-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="social-icons-svg">
+                  <use href="./images/icons/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-links-item">
+              <a
+                href="https://linkedin.com"
+                class="social-icons-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="social-icons-svg">
+                  <use href="./images/icons/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>

@@ -15,26 +15,34 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
-.icon-client1 {
+.icon-Logo6 {
   width: 1.7666015625em;
 }
 
-.icon-client2 {
+.icon-Logo5 {
   width: 1.7666015625em;
 }
 
-.icon-client3 {
+.icon-Logo4 {
   width: 1.7666015625em;
 }
 
-.icon-client4 {
+.icon-Logo3 {
   width: 1.7666015625em;
 }
 
-.icon-client5 {
+.icon-Logo2 {
   width: 1.7666015625em;
 }
 
-.icon-client6 {
+.icon-Logo1 {
   width: 1.7666015625em;
+}
+
+.icon-envelope {
+  width: 1.3330078125em;
+}
+
+.icon-smartphone {
+  width: 0.625em;
 }
