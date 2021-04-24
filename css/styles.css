@@ -464,8 +464,17 @@ p {
   margin: 0;
   background-color: var(--alt-title-color);
 }
-
+.clients .section-title {
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: var(--main-font);
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
 .clients {
+  margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
   padding-top: 94px;
@@ -556,6 +565,9 @@ p {
   display: block;
   margin-right: 70px;
 }
+.footer .auth-nav {
+  display: block;
+}
 .address {
   font-style: inherit;
   margin-top: 20px;
@@ -571,6 +583,7 @@ p {
   list-style: none;
 }
 .social-links .section-title {
+  margin-bottom: 20px;
   font-family: var(--main-font);
   font-size: 14px;
   font-weight: bold;
