@@ -507,7 +507,7 @@ p {
 .flex-container {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-start;
 }
 .footer {
   display: flex;
