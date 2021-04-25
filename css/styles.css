@@ -307,14 +307,6 @@ p {
   color: var(--alt-text-color);
 }
 
-/*.feutures-item::before {
-  display: block;
-  content: '';
-  width: 270px;
-  height: 120px;
-  outline: 1px solid red;
-}*/
-
 .feutures-box {
   display: flex;
   justify-content: center;
@@ -486,7 +478,6 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--team-bg);
   width: 170px;
   height: 92px;
   border-radius: 4px;
@@ -515,17 +506,19 @@ p {
   width: 170px;
   height: 92px;
 }
-.client-link:hover .clients-icon {
+.client-link:hover .clients-icon,
+.client-link:focus .clients-icon {
   fill: var(--accent-color);
 }
 
-.clients-box:hover {
+.clients-box:hover,
+.clients-box:focus {
   border-color: var(--accent-color);
 }
 
 .flex-container {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: flex-start;
 }
 .footer {
